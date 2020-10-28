@@ -1,200 +1,303 @@
+
+
+/* all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/* body tag turns background of website white */
 body {
     background-color: #d9dcd6;
 }
 
+
+/* the header class font family is changed, background color is now teal, color of text is white*/
 .header {
+    /* put 20 pixels of padding around elements content*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* this header h1 class inline block display, font size 48 pixel */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* header h1 seo class three middle letters gray color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* header div */
 .header div {
+    /* Put 15 pixels at padding top around elements content*/
     padding-top: 15px;
+    /* Put a 20 pixel margin at the right of header div*/
     margin-right: 20px;
+    /* element floats right of its container*/
     float: right;
+    /* change font family of text*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Put 20 pixels to font size*/
     font-size: 20px;
 }
 
+/* header div unordered list list style of none*/
 .header div ul {
     list-style-type: none;
 }
 
+/* header div unordered list items inline block display, put 25 pixels on margin left*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/* attribute href tag color is white and no text decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* all p tags font size is 16 pixels*/
 p {
     font-size: 16px;
 }
 
+/* hero image*/
 .hero {
+    /* height of image 800 pixels*/
     height: 800px;
+    /* width of image is 100 percent*/
     width: 100%;
+    /* Put 25 pixels margin at bottom of image*/
     margin-bottom: 25px;
+    /* image url link*/
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* image covers majority of website page*/
     background-size: cover;
+    /* image is center of website page*/
     background-position: center;
 }
 
+/* both seo and smm images float left of its containers, put 25 pixels at margin right image*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* orm image float right of its containers, put 25 pixels at margin left image*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* content class*/
 .content {
+    /* width of content class 75 percent*/
     width: 75%;
+    /* content class inline block display*/
     display: inline-block;
+    /* put 20 pixels in content class*/
     margin-left: 20px;
 }
 
+/* benefits class*/
 .benefits {
+    /* put 20 pixels margin at right of benefits elements*/
     margin-right: 20px;
+    /* put 20 pixels padding around element content*/
     padding: 20px;
+    /* floating elements not allowed to float on both sides*/
     clear: both;
+    /* content is floating right of its containers*/
     float: right;
+    /* blue content box width of 20 percent*/
     width: 20%;
+    /* blue content box height of 100 percent*/
     height: 100%;
+    /* font family is changing text*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* blue content box has a background color of blue*/
     background-color: #2589bd;
 }
 
+/* benefit lead(generation) class has 32 pixels margin at bottom of elements, text color is white*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* benefit brand(awareness) class has 32 pixels margin at bottom of elements, text color is white*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* benefit cost(management) class has 32 pixels margin at bottom of elements, text color is white*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* benefit lead(generation) h3 tag 10 pixels at margin bottom , text is centered*/ 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* benefit brand(awareness) h3 tag 10 pixels at margin bottom, text is centered*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* benefit cost(management) h3 tag 10 pixels at margin bottom, text is centered*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* benefit lead(generation) image*/
 .benefit-lead img {
+    /* element displayed as block*/
     display: block;
+    /* put 10 pixels at margin and take up same space */
     margin: 10px auto;
+    /* set maximum width of image to 150 pixels*/
     max-width: 150px;
 }
 
+/* benefit brand(awareness) image*/
 .benefit-brand img {
+    /* element displayed as block*/
     display: block;
+    /* put 10 pixels at margin and take up same space*/
     margin: 10px auto;
+    /* set maximum width of image to 150 pixels*/
     max-width: 150px;
 }
 
+/* benefit cost(management) image*/
 .benefit-cost img {
+    /* element displayed as block*/
     display: block;
+    /* put 10 pixels at margin and take up same space*/
     margin: 10px auto;
+    /* set maximum width of image to 150 pixels*/
     max-width: 150px;
 }
 
+/* seo class*/
 .search-engine-optimization {
+    /* put 20 pixels at margin bottom*/
     margin-bottom: 20px;
+    /* put 50 pixels around element contents*/
     padding: 50px;
+    /* height of 300 pixels*/
     height: 300px;
+    /* change font family of text*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background color of box is teal*/
     background-color: #0072bb;
+    /* text is white*/
     color: #ffffff;
 }
 
+/* orm class*/
 .online-reputation-management {
+    /* put 20 pixels at margin bottom*/
     margin-bottom: 20px;
+    /* put 50 pixels around element contents*/
     padding: 50px;
+    /* height of 300 pixels*/
     height: 300px;
+    /* change font family of text*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background color of box is teal*/
     background-color: #0072bb;
+    /* test is white*/
     color: #ffffff;
 }
 
+/* smm class*/
 .social-media-marketing {
+    /* put 20 pixels at margin bottom*/
     margin-bottom: 20px;
+    /* put 50 pixels around element contents*/
     padding: 50px;
+    /* height of 300 pixels*/
     height: 300px;
+    /* change font family of text*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* backgrounf color of box is teal*/
     background-color: #0072bb;
+    /* test is white*/
     color: #ffffff;
 }
 
+/* seo image*/
 .search-engine-optimization img {
+    /* maximum height of seo image is 200 pixels*/
     max-height: 200px;
 }
 
+/* orm image*/
 .online-reputation-management img {
+    /* maximum height of orm image is 200 pixels*/
     max-height: 200px;
 }
 
+/* smm image*/
 .social-media-marketing img {
+    /* maimum height of smm image is 200 pixels*/
     max-height: 200px;
 }
 
+/* seo h2 tag*/
 .search-engine-optimization h2 {
+    /* put 20 pixels at margin bottom*/
     margin-bottom: 20px;
+    /* font size is 36 pixels*/
     font-size: 36px;
 }
 
+/* orm h2 tag*/
 .online-reputation-management h2 {
+    /* put 20 pixels at margin bottom*/
     margin-bottom: 20px;
+    /* font size of 36 pixels*/
     font-size: 36px;
 }
 
+/* smm h2 tag*/
 .social-media-marketing h2 {
+    /* put 20 pixels at margin bottom*/
     margin-bottom: 20px;
+    /* font size of 36 pixels*/
     font-size: 36px;
 }
 
+/* footer class*/
 .footer {
+    /* put 30 pixels around elements contents*/
     padding: 30px;
+    /* floating elements not allowed to float on both sides*/
     clear: both;
+    /* change font family of text*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* text is centered*/
     text-align: center;
 }
-
+/* footer h2 tag*/
 .footer h2 {
+    /* font size of 20 pixels*/
     font-size: 20px;
 }
