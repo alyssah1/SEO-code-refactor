@@ -23,6 +23,5 @@ THEN I find a concise, descriptive title*
 index.html and style.css*
 
 
-Website screenshot.png
 
 
