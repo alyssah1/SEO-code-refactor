@@ -23,5 +23,6 @@ THEN I find a concise, descriptive title*
 index.html and style.css*
 
 
-
+* Insert image*
+* Insert link*
 
