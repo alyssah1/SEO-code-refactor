@@ -22,7 +22,7 @@ THEN I find a concise, descriptive title*
 * Files included
 index.html and style.css*
 
+![Website Screenshot](/images/websitescreenshot.png)
 
-* Insert image*
-* Insert link*
+
 
