@@ -15,7 +15,7 @@ body {
 
 
 /* the header class font family is changed, background color is now teal, color of text is white*/
-.header {
+header {
     /* put 20 pixels of padding around elements content*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,18 +24,18 @@ body {
 }
 
 /* this header h1 class inline block display, font size 48 pixel */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* header h1 seo class three middle letters gray color */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* header div */
-.header div {
+header div {
     /* Put 15 pixels at padding top around elements content*/
     padding-top: 15px;
     /* Put a 20 pixel margin at the right of header div*/
@@ -49,12 +49,12 @@ body {
 }
 
 /* header div unordered list list style of none*/
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
 /* header div unordered list items inline block display, put 25 pixels on margin left*/
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -108,6 +108,7 @@ p {
     /* put 20 pixels in content class*/
     margin-left: 20px;
 }
+
 
 /* benefits class*/
 .benefits {
@@ -286,7 +287,7 @@ p {
 }
 
 /* footer class*/
-.footer {
+footer {
     /* put 30 pixels around elements contents*/
     padding: 30px;
     /* floating elements not allowed to float on both sides*/
@@ -297,7 +298,7 @@ p {
     text-align: center;
 }
 /* footer h2 tag*/
-.footer h2 {
+footer h2 {
     /* font size of 20 pixels*/
     font-size: 20px;
 }
