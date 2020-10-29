@@ -22,7 +22,7 @@ THEN I find a concise, descriptive title*
 * Files included
 index.html and style.css*
 
-![GitHub Logo](/images/websitescreenshot.png)
+![websitescreenshot](/images/websitescreenshot.png)
 
 
 
