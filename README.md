@@ -1,10 +1,13 @@
 # SEO-code-refactor
 
-* Instructions*
+# Created by Alyssa Hollowell
 
-* This code refactor homework takes an existing HTML and CSS file that we have to refactor. The refactored code ensures web accessiblity. It ensures that people with disabilities have access to the website.* 
+# What project is about
 
-* Objective is for marketing agency customer wants codebase that follows standards optimized for search engines.*
+
+* This code refactor homework takes an existing HTML and CSS file that you have to refactor. The refactored code ensures web accessiblity. It ensures that people with disabilities have access to the website.* 
+
+* Objective is for marketing agency wanting a codebase that follows standards optimized for search engines.*
 
 * Acceptance criteria:
 GIVEN a webpage meets accessibility standards
@@ -21,6 +24,8 @@ THEN I find a concise, descriptive title*
 
 * Files included
 index.html and style.css*
+
+# Helpful links
 
 ![websitescreenshot](/images/websitescreenshot.png)
 
