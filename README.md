@@ -29,5 +29,5 @@ index.html and style.css*
 
 ![websitescreenshot](/images/websitescreenshot.png)
 
-
+![websitelink](https://alyssah1.github.io/SEO-code-refactor/)
 
